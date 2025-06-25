@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { FileText } from 'lucide-react';
 import { Loader, Image as ImageIcon } from 'lucide-react';
 import Sidebar from '@/app/components/Dashboard/Sidebar';
 import Navbar from '@/app/components/Dashboard/Navbar';
@@ -187,7 +188,7 @@ export default function DaftarUKM() {
   // Update useEffect to use fetchAndFilterUKMs
   useEffect(() => {
     fetchAndFilterUKMs();
-  }, [router]);
+  }, [fetchAndFilterUKMs]);
 
   // Update file validation
   const handleFileChange = (e, type) => {

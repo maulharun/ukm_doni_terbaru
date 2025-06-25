@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, MapPin, Loader } from 'lucide-react';
+import Image from 'next/image';
 import Navbar from '@/app/components/Dashboard/Navbar';
 import Sidebar from '@/app/components/Dashboard/Sidebar';
 import Footer from '@/app/components/Dashboard/Footer';

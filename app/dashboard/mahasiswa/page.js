@@ -93,7 +93,7 @@ export default function DashboardPage() {
             {/* Header */}
             <header className="mb-8">
               <h2 className="text-2xl font-bold text-gray-800">Dashboard Mahasiswa</h2>
-              <p className="text-gray-600 mt-2">Selamat datang di portal UKM Universitas Ma'soem</p>
+              <p className="text-gray-600 mt-2">Selamat datang di portal UKM Universitas Ma&apos;soem</p>
             </header>
 
             {/* Stats Grid */}
